@@ -2,7 +2,7 @@ name: Publish
 
 on:
   push:
-    branches: [ main,  hotfix , add-publish ]
+    branches: [ main, master ]
   workflow_dispatch:
 
 jobs:
